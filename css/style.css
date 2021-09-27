@@ -32,7 +32,7 @@ body{
   background-position: center;
 
   /*Req 1*/
-  font-family: 'andika', sans-serif;
+  font-family: 'Andika', sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
   background-color: #DDDDDD;
   background-repeat: no-repeat;
@@ -80,6 +80,8 @@ td{
   min-width: 125px;
   padding: 10px;
   color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-color: #7e0825;
   text-transform: uppercase;
@@ -134,9 +136,12 @@ tr:hover{
 footer{
   width:100%;
   background:#000000;
-  position: absolute;
-  text-align:center;
   color: #FFFFFF;
   min-height: 75px;
+  text-align:center;
+  /* display: grid;
+  grid-template: 1/1/1/1; */
+  position: fixed;
+  bottom: 0px;
   left: 0px;
 }
