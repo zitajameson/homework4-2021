@@ -46,7 +46,7 @@ h1{
   font-size: 2em;
 
   /*Req 2*/
-  size: 32px;
+  font-size: 32px;
   text-align: center;
   line-height: 2;
 }
@@ -80,12 +80,10 @@ td{
   min-width: 125px;
   padding: 10px;
   color: #FFFFFF;
-  /* text-align: center;
-  vertical-align: center; */
-  align-items:center;
-  justify-items: center;
   background-color: #7e0825;
   text-transform: uppercase;
+  vertical-align: middle;
+  text-align:center;
 }
 
 .rowhead{
@@ -132,7 +130,6 @@ tbody tr:last-child td:last-child{
 tr:hover{
   background-color: rgba(126, 8, 37, 0.25)
 }
-
 
 footer{
   width:100%;
