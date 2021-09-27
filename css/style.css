@@ -80,8 +80,10 @@ td{
   min-width: 125px;
   padding: 10px;
   color: #FFFFFF;
-  text-align: center;
-  vertical-align: center;
+  /* text-align: center;
+  vertical-align: center; */
+  align-items:center;
+  justify-items: center;
   background-color: #7e0825;
   text-transform: uppercase;
 }
